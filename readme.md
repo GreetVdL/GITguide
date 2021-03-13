@@ -3,6 +3,6 @@
 ##Ondertitel
 
 - lente
-- **zomer**
+- **zomer** :sun_with_face:
 - herfst
 - winter
