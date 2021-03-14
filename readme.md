@@ -28,7 +28,7 @@
 
 `$ git commit -am "commit message"`
 
-  - When new files where added, add them first: `$ git add .` `$ git commit -m "commit message"`
+  - When new files were added, add them first: `$ git add .` `$ git commit -m "commit message"`
 
 4. Create a new GitHub repository.
 
