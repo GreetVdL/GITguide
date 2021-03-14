@@ -11,7 +11,7 @@
 
 ---
 
-## GIT guide for local-Github connected setup 🚀
+## GIT guide for local-GitHub connected setup 🚀
 
 1. Make a local folder with your files in it and open the folder in *VSCode*.
 
