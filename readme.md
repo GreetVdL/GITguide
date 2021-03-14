@@ -2,7 +2,6 @@
 
 # A GIT guide written in Markdown 📓
 
----
 ## Cheat sheets 👀
 
 ---> [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet)
@@ -48,6 +47,26 @@
 `$ git pull <REMOTENAME> <BRANCHNAME>`
 
  - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git pull`
+
+---
+
+## GIT guide for merging 🌉
+
+1. First, move into the branch you want to merge into.
+
+`$ git checkout <BRANCHNAME>`
+
+2. Tell GIT what branch you want to merge into the branch you are currently in.
+
+`$ git merge <BRANCHNAME>`
+
+3. You can delete the branch that just has been merged.
+
+`$ git branch -d <BRANCHNAME>`
+
+4. You can also delete the branch on your remote on GitHub.
+
+`$ git push <REMOTENAME> --delete <BRANCHNAME>`
 
 ---
 
