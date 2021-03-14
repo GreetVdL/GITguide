@@ -1,3 +1,5 @@
+![laptop image](./images/laptop.jpg)
+
 # A GIT guide written in Markdown
 
 
