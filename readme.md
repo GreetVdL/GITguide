@@ -1,9 +1,9 @@
 ![laptop image](./images/laptop.jpg)
 
-# A GIT guide written in Markdown
+# A GIT guide written in Markdown 📓
 
 ---
-## Cheat sheets
+## Cheat sheets 👀
 
 ---> [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
@@ -11,7 +11,7 @@
 
 ---
 
-## GIT guide for local-Github connected setup
+## GIT guide for local-Github connected setup 🚀
 
 1. Make a local folder with your files in it and open the folder in *VSCode*.
 
@@ -51,7 +51,7 @@
 
 ---
 
-## Other useful commands
+## Other useful commands 💡
 
 - See the status of changes to a repository
 
