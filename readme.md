@@ -1,4 +1,5 @@
-![laptop image](./images/tutorial.jpg)
+<!--![laptop image](./images/tutorial.jpg)-->
+<p style="text-align: center"><img src="./images/tutorial.jpg" width="50%"></p>
 
 # A GIT guide written in Markdown 📓
 
