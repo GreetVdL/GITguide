@@ -1,4 +1,4 @@
-![laptop image](./images/laptop.jpg)
+![laptop image](./images/tutorial.jpg)
 
 # A GIT guide written in Markdown 📓
 
