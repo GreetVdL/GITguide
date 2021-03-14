@@ -2,16 +2,18 @@
 
 # A GIT guide written in Markdown
 
-
+---
 ## Cheat sheets
 
 ---> [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
 ---> [GIT cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
+---
+
 ## GIT guide for local-Github connected setup
 
-1. Make a local folder with your files in it and open the folder in VSCode.
+1. Make a local folder with your files in it and open the folder in *VSCode*.
 
 `$ code .`
 
@@ -46,6 +48,8 @@
 `$ git pull <REMOTENAME> <BRANCHNAME>`
 
  - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git pull`
+
+---
 
 ## Other useful commands
 
@@ -92,6 +96,5 @@
 - Rename a branch you're currently on
 
 `$ git branch -m <NEWBRANCHNAME>`
-
 
 
