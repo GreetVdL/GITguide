@@ -41,7 +41,7 @@
 
 `$ git push -u origin main`
 
-  - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git push` **Upstream** would refer to the main repo that other people will be pulling from, e.g. your GitHub repo. The -u option automatically sets that upstream for you, linking your repo to a central one. That way, in the future, Git "knows" where you want to push to and where you want to pull from, so you can use git pull or git push without arguments. 
+  - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git push` The **upstream** flag -u refers to the repository that one will be pulling from by default. Now you can use the git pull and git push commands without arguments. 
 
 7. If you make remote changes, pull them in.
 
