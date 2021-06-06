@@ -13,7 +13,7 @@
 
 ## GIT guide for local-GitHub connected setup 🚀
 
-1. Make a local folder with your files in it and open the folder in *VSCode*.
+1. Make a local folder with your files in it and open the folder in _VSCode_.
 
 `$ code .`
 
@@ -29,7 +29,7 @@
 
 `$ git commit -am "commit message"`
 
-  - When new files were added, add them first: `$ git add .` `$ git commit -m "commit message"`
+- When new files were added, add them first: `$ git add .` `$ git commit -m "commit message"`
 
 4. Create a new GitHub repository.
 
@@ -41,13 +41,13 @@
 
 `$ git push -u origin main`
 
-  - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git push` The **upstream** flag -u refers to the repository that one will be pulling from by default. Now you can use the git pull and git push commands without arguments. 
+- If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git push` The **upstream** flag -u refers to the repository that one will be pulling from by default. Now you can use the git pull and git push commands without arguments.
 
 7. If you make remote changes, pull them in.
 
 `$ git pull <REMOTENAME> <BRANCHNAME>`
 
- - If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git pull`
+- If you have only one remote connected and one branch 'main', you can omit the remote and branch names. `$ git pull`
 
 ---
 
@@ -73,6 +73,10 @@
 
 ## Other useful commands 💡
 
+- clone a repo and set the new name of the cloned directory:
+
+`$ git clone <URL> <NEWDIRECTORYNAME>`
+
 - See the status of changes to a repository
 
 `$ git status`
@@ -81,9 +85,13 @@
 
 `$ git diff`
 
-- Set a URL to a remote
+- Set a new GitHub repo as origin to your clone:
 
-`$ git remote set-url <REMOTENAME> <URL>`
+`$ git remote set-url origin <new-repo-url>`<br/>
+
+- Rename the local master branch to main:
+
+`git branch -m master main`
 
 - View remote addresses
 
@@ -116,5 +124,3 @@
 - Rename a branch you're currently on
 
 `$ git branch -m <NEWBRANCHNAME>`
-
-
